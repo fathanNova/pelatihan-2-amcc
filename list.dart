@@ -12,4 +12,7 @@ void main() {
   //mengurutkan nilai dalam buah
   buah.sort();
   print(buah);
+
+  //mengecek apakah ada nilai tertentu dalam list
+  print(buah.contains('mangga'));
 }
